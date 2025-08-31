@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Melbourne Conversations</title>
+  <link rel="stylesheet" href="../css/section_common.css" type="text/css">
+  <link rel="stylesheet" href="../css/conversation_page.css" type="text/css">
+  <link rel="stylesheet" href="../css/newnav.css" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <script src="../js/styling.js"></script>
+  <script src="../js/newnav.js"></script>
+  <script src="../js/audio.js"></script>
+</head>
+
+<body>
+
+  <div class="conversation_container conversation_one">
+    <div class="popup_section" id="popup_section">
+      <span class="conversations-heading">Conversations</span>
+
+      <div class="convo-img">
+        <a href="../conversations.html" class="close-button">&times;</a>
+        <img src="../img/img_01.jpg" class="convo-img">
+      </div>
+
+      <div class="audio_column">
+        <div class="table_head">
+          <div class="convo_number">
+            1.
+          </div>
+          <div class="convo_title">
+            Are you OK?
+          </div>
+        </div>
+
+   
+        <div class="audio_player_row">
+          <audio class="audio" controls onplay="stopAll()">
+            <source src="../media/01_conversation/conversation_one.mp3" type="audio/mp3" data-song="10" id="song10"  />
+          </audio>
+        </div>
+
+        <div class="conversation_text_row">
+          <div class="convo_text_column">
+            <div class="player-container">
+              <div class="play btn-toggle" data-song="song1">You look a bit feverish. Are you ok?</div>
+            </div>
+
+            <div class="player-container">
+              <div class="play btn-toggle" data-song="song2">To tell you the truth, I feel terrible.</div>
+            </div>
+
+            <div class="player-container">
+              <div class="play btn-toggle" data-song="song3">Why, what's the matter?</div>
+            </div>
+
+            <div class="player-container">
+              <div class="play btn-toggle" data-song="song4">I've got this terrible headache and I feel so hot.</div>
+            </div>
+
+            <div class="player-container">
+              <div class="play btn-toggle" data-song="song5">Did you take anything for it?</div>
+            </div>
+
+            <div class="player-container">
+              <div class="play btn-toggle" data-song="song6">I took some pain-killers, but they didn't seem to work.
+                I feel awful. My whole body aches.</div>
+            </div>
+          </div>
+          <div class="convo_text_column">
+            <div class="player-container">
+              <div class="play btn-toggle" data-song="song7">Have you been to a doctor? You know there's a flu going
+                around.</div>
+            </div>
+
+            <div class="player-container">
+              <div class="play btn-toggle" data-song="song8">No, I thought I might feel better after a good night's
+                sleep,
+                but I feel worse this morning.</div>
+            </div>
+
+            <div class="player-container">
+              <div class="play btn-toggle" data-song="song9">You should go home and lie down for a bit.
+                Go home!! Look after yourself.</div>
+            </div>
+          </div>
+        </div>
+
+        <audio id="song1" class="audio">
+          <source src="../media/01_conversation/trk001.mp3" type="audio/mpeg" />
+        </audio>
+
+        <audio id="song2" class="audio">
+          <source src="../media/01_conversation/trk002.mp3" type="audio/mp3" />
+        </audio>
+
+        <audio id="song3" class="audio">
+          <source src="../media/01_conversation/trk003.mp3" type="audio/mpeg" />
+        </audio>
+
+        <audio id="song4" class="audio">
+          <source src="../media/01_conversation/trk004.mp3" type="audio/mp3" />
+        </audio>
+
+        <audio id="song5" class="audio">
+          <source src="../media/01_conversation/trk005.mp3" type="audio/mpeg" />
+        </audio>
+
+        <audio id="song6" class="audio">
+          <source src="../media/01_conversation/trk006.mp3" type="audio/mp3" />
+        </audio>
+
+        <audio id="song7" class="audio">
+          <source src="../media/01_conversation/trk007.mp3" type="audio/mp3" />
+        </audio>
+
+        <audio id="song8" class="audio">
+          <source src="../media/01_conversation/trk008.mp3" type="audio/mp3" />
+        </audio>
+
+        <audio id="song9" class="audio">
+          <source src="../media/01_conversation/trk009.mp3" type="audio/mp3" />
+        </audio>
+
+        <div class="player-container">
+          <div class="play btn-toggle playAll" data-song="song10"><br>
+        </div>
+        </div>
+  </div>
+
+</div>
+</div>
+
+</body>
+
+</html>

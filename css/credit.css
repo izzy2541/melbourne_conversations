@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+    background: url("../img/melbourne_background_blurred.png") no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+}
+body {
+	padding: 3em;
+}
+h1 {
+	padding-top: 3em;
+    font-weight: 900;
+    font-size: 1.4em;
+}
+h4 {
+	font-weight: bold;
+}
+#credit-container {
+	display: flex;
+	gap: 1em;
+	align-items: flex-start;
+}
+.credit_wrapper {
+	background-color: var(--anti_flash_white);
+	border-left: 10px solid var(--celestial_blue);
+	padding: 0 0.5em 0.7em 0.5em;
+}
+
+@media only screen and (max-width: 685px) {
+	#credit-container {
+		justify-content: unset;
+		align-items: unset;
+		flex-direction: column;
+	}
+}

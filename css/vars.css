@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+Definitions of global colours as CSS variables.
+*/
+:root {
+	--anti_flash_white: #E4E6EC;
+	--blue: #0099CC;
+	--blue_munsell: #13859F;
+	--celestial_blue: #1998DE;
+	--eerie_black: #222;
+	--fandango: #A61185;
+	--jet_black: #2D2D2D;
+	--kelly_green: #68B721;
+	--light_sea_green: #1DB8A9;
+	--onyx_black: #434343;
+	--pear: #CCDC00;
+	--rose: #F3157E;
+	--silver: #BABABA;
+	--sunglow: #F9CB36;
+	--violet: #7C3DC1;
+}

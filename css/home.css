@@ -1,0 +1,45 @@
+body {
+    background: url(../img/1_melbourne_background.png) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+#melbourne-conversation-title {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 5em;
+}
+#melb-convo-icons {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    position: relative;
+    top: 360px;
+    gap: 4em;
+}
+#melb-convo-icons img {
+    width: 70px;
+}
+@media only screen and (max-width: 1345px) {
+	#melbourne-conversation-title {
+		width: 80%;
+	}
+}
+@media only screen and (max-width: 1000px) {
+	#melb-convo-icons {
+		flex-wrap: wrap;
+	}
+		#melb-convo-icons img {
+		width: 70px;
+	}
+}
+@media only screen and (max-width: 800px) {
+	#melb-convo-icons {
+		gap: 1em;
+	}
+	#melbourne-conversation-title {
+		width: 90%;
+	}
+}

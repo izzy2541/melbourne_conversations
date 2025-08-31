@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-image: url("../img/imageGuide.jpg");
+	background-repeat: no-repeat;
+}
+/*
+audio {
+    position: absolute;
+    bottom: 100px;
+    right: 150px;
+}
+*/
+i.fa.fa-arrow-left {
+	color: #FFF;
+	font-size: 3em;
+	padding: 1em 0 0 0.5em;
+}
